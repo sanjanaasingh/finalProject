@@ -16,6 +16,10 @@
 		A81EDA0B26A768A600AC0EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81EDA0926A768A600AC0EB4 /* LaunchScreen.storyboard */; };
 		A81EDA1626A768A600AC0EB4 /* finalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81EDA1526A768A600AC0EB4 /* finalProjectTests.swift */; };
 		A81EDA2126A768A600AC0EB4 /* finalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81EDA2026A768A600AC0EB4 /* finalProjectUITests.swift */; };
+		A81EDA3126A77A0200AC0EB4 /* DailyChallenges2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81EDA3026A77A0200AC0EB4 /* DailyChallenges2ViewController.swift */; };
+		A81EDA3326A77A9800AC0EB4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81EDA3226A77A9800AC0EB4 /* Home.swift */; };
+		A81EDA3526A77AD500AC0EB4 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81EDA3426A77AD500AC0EB4 /* Schedule.swift */; };
+		A81EDA3726A77B0600AC0EB4 /* MoodBooster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81EDA3626A77B0600AC0EB4 /* MoodBooster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		A81EDA1C26A768A600AC0EB4 /* finalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A81EDA2026A768A600AC0EB4 /* finalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectUITests.swift; sourceTree = "<group>"; };
 		A81EDA2226A768A600AC0EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A81EDA3026A77A0200AC0EB4 /* DailyChallenges2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallenges2ViewController.swift; sourceTree = "<group>"; };
+		A81EDA3226A77A9800AC0EB4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A81EDA3426A77AD500AC0EB4 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		A81EDA3626A77B0600AC0EB4 /* MoodBooster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodBooster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 		A81ED9EF26A768A400AC0EB4 = {
 			isa = PBXGroup;
 			children = (
+				A81EDA3626A77B0600AC0EB4 /* MoodBooster.swift */,
+				A81EDA3426A77AD500AC0EB4 /* Schedule.swift */,
+				A81EDA3226A77A9800AC0EB4 /* Home.swift */,
+				A81EDA3026A77A0200AC0EB4 /* DailyChallenges2ViewController.swift */,
 				A81ED9FA26A768A400AC0EB4 /* finalProject */,
 				A81EDA1426A768A600AC0EB4 /* finalProjectTests */,
 				A81EDA1F26A768A600AC0EB4 /* finalProjectUITests */,
@@ -262,8 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A81EDA0026A768A400AC0EB4 /* ViewController.swift in Sources */,
+				A81EDA3726A77B0600AC0EB4 /* MoodBooster.swift in Sources */,
+				A81EDA3126A77A0200AC0EB4 /* DailyChallenges2ViewController.swift in Sources */,
 				A81ED9FC26A768A400AC0EB4 /* AppDelegate.swift in Sources */,
 				A81EDA0626A768A500AC0EB4 /* finalProject.xcdatamodeld in Sources */,
+				A81EDA3326A77A9800AC0EB4 /* Home.swift in Sources */,
+				A81EDA3526A77AD500AC0EB4 /* Schedule.swift in Sources */,
 				A81ED9FE26A768A400AC0EB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
