@@ -8,7 +8,22 @@
 import UIKit
 
 class MoodBooster: UIViewController {
-
+    
+    @IBOutlet weak var question1Result: UILabel!
+    
+    @IBAction func educateChoice(_ sender: UIButton) {
+        question1Result.text = "Try again!"
+    }
+    @IBAction func listenChoice(_ sender: UIButton) {
+        question1Result.text = "Try again!"
+    }
+    @IBAction func equateChoice(_ sender: UIButton) {
+        question1Result.text = "Try again!"
+    }
+    @IBAction func allChoice(_ sender: UIButton) {
+        question1Result.text = "Correct! Great job!"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

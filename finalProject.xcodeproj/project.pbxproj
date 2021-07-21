@@ -20,6 +20,8 @@
 		A81EDA3326A77A9800AC0EB4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81EDA3226A77A9800AC0EB4 /* Home.swift */; };
 		A81EDA3526A77AD500AC0EB4 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81EDA3426A77AD500AC0EB4 /* Schedule.swift */; };
 		A81EDA3726A77B0600AC0EB4 /* MoodBooster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81EDA3626A77B0600AC0EB4 /* MoodBooster.swift */; };
+		E071500F26A8CA1C003A6549 /* Trivia2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E071500E26A8CA1C003A6549 /* Trivia2ViewController.swift */; };
+		E071501126A8CA3E003A6549 /* Trivia3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E071501026A8CA3E003A6549 /* Trivia3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		A81EDA3226A77A9800AC0EB4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		A81EDA3426A77AD500AC0EB4 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		A81EDA3626A77B0600AC0EB4 /* MoodBooster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodBooster.swift; sourceTree = "<group>"; };
+		E071500E26A8CA1C003A6549 /* Trivia2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia2ViewController.swift; sourceTree = "<group>"; };
+		E071501026A8CA3E003A6549 /* Trivia3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				A81ED9FD26A768A400AC0EB4 /* SceneDelegate.swift */,
 				A81ED9FF26A768A400AC0EB4 /* ViewController.swift */,
 				A81EDA0126A768A500AC0EB4 /* Main.storyboard */,
+				E071501026A8CA3E003A6549 /* Trivia3ViewController.swift */,
+				E071500E26A8CA1C003A6549 /* Trivia2ViewController.swift */,
 				A81EDA0726A768A600AC0EB4 /* Assets.xcassets */,
 				A81EDA0926A768A600AC0EB4 /* LaunchScreen.storyboard */,
 				A81EDA0C26A768A600AC0EB4 /* Info.plist */,
@@ -273,12 +279,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E071500F26A8CA1C003A6549 /* Trivia2ViewController.swift in Sources */,
 				A81EDA0026A768A400AC0EB4 /* ViewController.swift in Sources */,
 				A81EDA3726A77B0600AC0EB4 /* MoodBooster.swift in Sources */,
 				A81EDA3126A77A0200AC0EB4 /* DailyChallenges2ViewController.swift in Sources */,
 				A81ED9FC26A768A400AC0EB4 /* AppDelegate.swift in Sources */,
 				A81EDA0626A768A500AC0EB4 /* finalProject.xcdatamodeld in Sources */,
 				A81EDA3326A77A9800AC0EB4 /* Home.swift in Sources */,
+				E071501126A8CA3E003A6549 /* Trivia3ViewController.swift in Sources */,
 				A81EDA3526A77AD500AC0EB4 /* Schedule.swift in Sources */,
 				A81ED9FE26A768A400AC0EB4 /* SceneDelegate.swift in Sources */,
 			);
