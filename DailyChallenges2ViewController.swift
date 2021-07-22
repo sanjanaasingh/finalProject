@@ -9,6 +9,11 @@ import UIKit
 
 class DailyChallenges2ViewController: UIViewController {
 
+    @IBOutlet weak var firstX: UILabel!
+    @IBAction func firstButton(_ sender: UIButton) {
+        firstX.text = "✔️"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
