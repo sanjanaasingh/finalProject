@@ -14,6 +14,41 @@ class DailyChallenges2ViewController: UIViewController {
         firstX.text = "✔️"
     }
     
+    @IBOutlet weak var secondX: UILabel!
+    @IBAction func secondButton(_ sender: UIButton) {
+        secondX.text = "✔️"
+    }
+    
+    @IBOutlet weak var thirdX: UILabel!
+    @IBAction func thirdButton(_ sender: UIButton) {
+        thirdX.text = "✔️"
+    }
+    
+    @IBOutlet weak var fourthX: UILabel!
+    @IBAction func fourthButton(_ sender: UIButton) {
+        fourthX.text = "✔️"
+    }
+    
+    @IBOutlet weak var fifthX: UILabel!
+    @IBAction func fifthButton(_ sender: UIButton) {
+        fifthX.text = "✔️"
+    }
+    
+    @IBOutlet weak var sixthX: UILabel!
+    @IBAction func sixthButton(_ sender: UIButton) {
+        sixthX.text = "✔️"
+    }
+    
+    @IBOutlet weak var seventhX: UILabel!
+    @IBAction func seventhButton(_ sender: UIButton) {
+        seventhX.text = "✔️"
+    }
+    
+    @IBOutlet weak var eighthX: UILabel!
+    @IBAction func eighthButton(_ sender: UIButton) {
+        eighthX.text = "✔️"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
